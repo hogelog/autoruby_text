@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+
+$LOAD_PATH << File.join(File.dirname(File.expand_path(__FILE__)), "lib")
+
+require "autoruby_text"
+
+AutorubyText::CLI.run
